@@ -5,6 +5,7 @@ import ShopCategory from './pages/ShopCategory';
 import Product from './pages/Product';
 import Cart from './pages/Cart'
 import LoginSignup from './pages/LoginSignup'
+
 function App() {
   return (
     <>
