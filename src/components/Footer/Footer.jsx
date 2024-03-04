@@ -6,8 +6,8 @@ import whatspp_icon from "../Assets/whatsapp_icon.png"
 
 const Footer = () => {
       return (
-            <div className='Footer'>
-                  <div className="footer-logo">
+            <div className='Footer bg-slate-300'>
+                  <div className="footer-logo mt-3">
                         <img src={footer_logo} alt="" />
                         <p>E-com</p>
                   </div>
@@ -19,13 +19,13 @@ const Footer = () => {
                         <li>Contact</li>
                   </ul>
                   <div className="footer-social-icons">
-                        <div className="footer-icons-container">
+                        <div className="footer-icons-container cursor-pointer">
                               <img src={instagram_icon} alt="" />
                         </div>
-                        <div className="footer-icons-container">
+                        <div className="footer-icons-container  cursor-pointer">
                               <img src={whatspp_icon} alt="" />
                         </div>
-                        <div className="footer-icons-container">
+                        <div className="footer-icons-container cursor-pointer">
                               <img src={pintester_icon} alt="" />
                         </div>
                   </div>
